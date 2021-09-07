@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="ejercicio-ii-2b-dtd.css"?>
+<!-- ejercicio-ii-1b-dtd.xml  grupo4-->
+
+<!DOCTYPE fichero SYSTEM "ejercicio-ii-2b-dtd.dtd">
+<fichero>
+ <ficha id="A1" nombre="prueba">
+  <nombre sexo="femenino" edad="17">Angelina</nombre>
+  <apellido>Fernandez</apellido>
+  <apellido>Martínez</apellido>
+  <direccion>c/Ulises, 36</direccion>
+  <direccion>av.Norte,</direccion>
+  <direccion>Boulevard de los Héroes</direccion>
+  <DUI>000000000</DUI>
+ </ficha>
+</fichero>

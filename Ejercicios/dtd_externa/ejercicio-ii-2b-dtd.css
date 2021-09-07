@@ -1,0 +1,31 @@
+ficha{
+    background-color: darkgray;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: block;
+    clear:both;
+}
+ficha::before{
+    content: "Ficha: " attr(id)"-"attr(nombre);
+}
+nombre{
+    color:blue;
+    display: block;
+}
+nombre::before{
+    content: "Nombre: ";
+}
+apellido{
+    color:blue;
+}
+direccion{
+    display: block;
+}
+direccion::before{
+    content: "Dirección: ";
+}
+DUI{
+    display: block;
+}
+DUI::before{
+    content: "DUI: ";
+}

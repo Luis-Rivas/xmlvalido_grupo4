@@ -1,0 +1,23 @@
+nombre{
+    color:blue;
+    background-color: chartreuse;
+}
+nombre::before{
+    content: "Nombre: ";
+}
+apellido{
+    color:blue;
+    background-color: chartreuse;
+}
+direccion{
+    display: block;
+}
+direccion::before{
+    content: "Dirección: ";
+}
+DUI{
+    display: block;
+}
+DUI::before{
+    content: "DUI: ";
+}

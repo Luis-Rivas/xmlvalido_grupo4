@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="ejercicio-ii-1b-dtd.css"?>
+<!-- ejercicio-ii-1b-dtd.xml  grupo4-->
+
+<!DOCTYPE fichero [
+		<!ELEMENT fichero (ficha+)>
+		<!ELEMENT ficha (nombre, apellido, apellido, direccion*, DUI)>
+    <!ATTLIST ficha id  ID  #REQUIRED>
+    <!ATTLIST ficha nombre CDATA #IMPLIED>
+		<!ELEMENT nombre (#PCDATA)>
+		<!ATTLIST nombre sexo (masculino|femenino) #REQUIRED>
+            	<!ATTLIST nombre edad  CDATA  #IMPLIED>
+		<!ELEMENT apellido (#PCDATA) >
+		<!ELEMENT direccion (#PCDATA)>
+		<!ELEMENT DUI (#PCDATA) >
+		]>
+<fichero>
+ <ficha id="A1" nombre="prueba">
+  <nombre sexo="femenino" edad="17">Angelina</nombre>
+  <apellido>Fernandez</apellido>
+  <apellido>Martínez</apellido>
+  <direccion>c/Ulises, 36</direccion>
+  <direccion>av.Norte,</direccion>
+  <direccion>Boulevard de los Héroes</direccion>
+  <DUI>000000000</DUI>
+ </ficha>
+</fichero>
