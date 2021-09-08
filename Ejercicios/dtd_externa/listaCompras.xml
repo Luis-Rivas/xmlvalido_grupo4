@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE root SYSTEM "listaCompras.dtd">
+<root>
+<a xmlns="http://www.w3.org/1999/xhtml" href="../../index.html" target="marco">Volver al inicio</a>
+<lista>
+<categoria nombre="Comida">
+<producto>
+<nombre>Pollo</nombre>
+<precio>1.50</precio>
+<cantidad>1lb</cantidad>
+</producto>
+<producto>
+<nombre>Pollo</nombre>
+<precio>1.50</precio>
+<cantidad>1lb</cantidad>
+</producto>
+</categoria>
+<categoria nombre="Salud">
+<producto>
+<nombre>Pollo</nombre>
+<precio>1.50</precio>
+<cantidad>1lb</cantidad>
+</producto>
+<producto>
+<nombre>Pollo</nombre>
+<precio>1.50</precio>
+<cantidad>1lb</cantidad>
+</producto>
+</categoria>
+<categoria nombre="Cuidado Personal">
+<producto>
+<nombre>Pollo</nombre>
+<precio>1.50</precio>
+<cantidad>1lb</cantidad>
+</producto>
+<producto>
+<nombre>Pollo</nombre>
+<precio>1.50</precio>
+<cantidad>1lb</cantidad>
+</producto>
+</categoria>
+<categoria nombre="Limpieza">
+<producto>
+<nombre>Pollo</nombre>
+<precio>1.50</precio>
+<cantidad>1lb</cantidad>
+</producto>
+<producto>
+<nombre>Pollo</nombre>
+<precio>1.50</precio>
+<cantidad>1lb</cantidad>
+</producto>
+</categoria>
+</lista>
+</root>

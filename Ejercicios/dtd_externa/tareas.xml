@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet href="tareas.css"?>
+
+<!DOCTYPE root SYSTEM "tareas.dtd">
+<root>
+<a xmlns="http://www.w3.org/1999/xhtml" href="../../index.html" target="marco">Volver al inicio</a>
+<registro institucion="Universidad de El Salvador">
+<facultad codigo="001">Facultad de Ingeniería y Arquitectura</facultad>
+<carrera codigo="I10515-1998">Ingeniería de Sistemas Informáticos</carrera>
+<asignatura codigo="TPI-115">
+<nombreAsignatura>Tecnicas de Programación para Internet</nombreAsignatura>
+<GL>
+<grupoLab>01</grupoLab>
+<docente>Ing. Balmore Ortíz</docente>
+<actividad>
+<descripcion>Tarea de investigación</descripcion>
+<ponderacion>50%</ponderacion>
+</actividad>
+<listEquipos>
+<equipo>
+<numeroEquipo>01</numeroEquipo>
+<tema>xml válido</tema>
+<coordinador sexo="M">
+<carnetC>RM18029</carnetC>
+<apellidoC>Rivas</apellidoC>
+<nombreCoordinador>Luis</nombreCoordinador>
+</coordinador>
+<integrante sexo="F">
+<carnet>AG21111</carnet>
+<apellido>Rivera</apellido>
+<nombre>Victoria</nombre>
+</integrante>
+<integrante sexo="M">
+<carnet>FE19022</carnet>
+<apellido>Fernandez</apellido>
+<nombre>José</nombre>
+</integrante>
+<integrante sexo="F">
+<carnet>AV18028</carnet>
+<apellido>Andrade</apellido>
+<nombre>María</nombre>
+</integrante>
+</equipo>
+<equipo>
+<numeroEquipo>02</numeroEquipo>
+<tema>xml bien formado</tema>
+<coordinador sexo="M">
+<carnetC>RM18029</carnetC>
+<apellidoC>Rivas</apellidoC>
+<nombreCoordinador>Luis</nombreCoordinador>
+</coordinador>
+<integrante sexo="F">
+<carnet>AG21111</carnet>
+<apellido>Rivera</apellido>
+<nombre>Victoria</nombre>
+</integrante>
+<integrante sexo="M">
+<carnet>FE19022</carnet>
+<apellido>Fernandez</apellido>
+<nombre>José</nombre>
+</integrante>
+<integrante sexo="F">
+<carnet>AV18028</carnet>
+<apellido>Andrade</apellido>
+<nombre>María</nombre>
+</integrante>
+</equipo>
+</listEquipos>
+</GL>
+</asignatura>
+</registro>
+</root>

@@ -1,0 +1,36 @@
+<!--DTD -->
+<!ELEMENT root (a, registro)>
+<!ELEMENT a (#PCDATA)>
+<!ATTLIST a  
+  href CDATA #IMPLIED
+  xmlns CDATA #IMPLIED 
+  target (_blank|_self|marco) "_blank">
+<!ELEMENT registro (facultad, carrera, asignatura) >
+<!ATTLIST registro institucion CDATA #FIXED "Universidad de El Salvador">
+<!ELEMENT facultad (#PCDATA)>
+<!ATTLIST facultad codigo CDATA  #REQUIRED>
+<!ELEMENT carrera (#PCDATA)>
+<!ATTLIST carrera codigo CDATA #REQUIRED>
+<!ELEMENT asignatura (nombreAsignatura, GL)>
+<!ATTLIST asignatura codigo CDATA #IMPLIED>
+<!ELEMENT nombreAsignatura (#PCDATA)>
+<!ELEMENT GL (grupoLab, docente, actividad, listEquipos)>
+<!ELEMENT grupoLab (#PCDATA)>
+<!ELEMENT docente (#PCDATA)>
+<!ELEMENT actividad (descripcion, ponderacion)>
+<!ELEMENT descripcion (#PCDATA)>
+<!ELEMENT ponderacion (#PCDATA)>
+<!ELEMENT listEquipos (equipo+)>
+<!ELEMENT equipo (numeroEquipo, tema?, coordinador, integrante,integrante, integrante)>
+<!ELEMENT numeroEquipo (#PCDATA)>
+<!ELEMENT tema (#PCDATA) >
+<!ELEMENT coordinador (carnetC, apellidoC, nombreCoordinador)>
+<!ELEMENT carnetC (#PCDATA) >
+<!ELEMENT apellidoC (#PCDATA) >
+<!ELEMENT nombreCoordinador (#PCDATA) >
+<!ATTLIST coordinador sexo (M | F) #REQUIRED>
+<!ELEMENT integrante (carnet, apellido,nombre)>
+<!ELEMENT carnet (#PCDATA) >
+<!ELEMENT apellido (#PCDATA) >
+<!ELEMENT nombre (#PCDATA) >
+<!ATTLIST integrante sexo (M | F) #REQUIRED>

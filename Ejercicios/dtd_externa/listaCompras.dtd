@@ -1,0 +1,15 @@
+
+<!ELEMENT root (a,lista+)>
+<!ELEMENT a (#PCDATA)>
+<!ATTLIST a  
+  href CDATA #IMPLIED
+  xmlns CDATA #IMPLIED 
+  target (_blank|_self|marco) "_blank">
+<!ELEMENT lista (categoria+)>
+<!ATTLIST lista propietario CDATA #IMPLIED>
+<!ELEMENT categoria (producto*)>
+<!ATTLIST categoria nombre CDATA #REQUIRED>
+<!ELEMENT producto (nombre,precio,cantidad?)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT precio (#PCDATA)>
+<!ELEMENT cantidad (#PCDATA)>
