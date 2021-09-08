@@ -1,0 +1,64 @@
+registro{
+    font-size: large;
+}
+registro::before{
+    content: "Universidad de El Salvador";
+}
+facultad{
+    display: block;
+}
+carrera{
+    display: block;
+}
+grupoLab{
+    display: block;
+}
+grupoLab::before{
+    content: "Grupo de Laboratorio: ";
+}
+docente::before{
+    content: "Docente: ";
+}
+descripcion{
+    display: block;
+}
+descripcion::before{
+    content: "Actividad: ";
+}
+ponderacion::before{
+    content: "Ponderación: ";
+}
+listEquipos{
+    display: block;
+}
+listEquipos::before{
+    content: "Lista de equipos de trabajo: ";
+}
+equipo{
+    display: block;
+    border: solid;
+    margin:2em;
+}
+equipo::before{
+    content: "Equipo #";
+}
+tema{
+    display: block;
+}
+tema::before{
+    content: "Tema: ";
+}
+coordinador::before{
+    content: "Integrantes del equipo: " '\A';
+    white-space:pre;
+}
+coordinador::after{
+    content: "*(Coordinador)";
+}
+coordinador{
+    display: block;
+}
+integrante{
+    display: block;
+}
+
