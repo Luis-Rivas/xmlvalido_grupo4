@@ -1,102 +1,111 @@
 registro{
     font-size: large;
+    background-color: cornflowerblue;
+    display: block;
+    padding: 20px;
+    font-size: 35px;
+    margin-left: 100px;
+    border-radius: 25px;
+    margin-top: 30px;
+    margin-left: 13%;
+    width: 50%;
+    padding-left: 10%;
+    padding-right: 15%;
+    padding-top: 20px;
+    padding-bottom: 0%;
+    border-color: black;
+    border: 2px solid black;
+    font-weight: bold;
+    font-family: 'Lucida Handwriting';
+    text-align: center;
+    color: white;
 }
-
-
 a{
     background-color:rgb(16, 87, 219);
     font-size: 25px;
     color: cornsilk;
     padding: 1em;
     text-decoration:none;
+    margin-left: 45%;
 }
-
 registro::before{
     content: "Universidad de El Salvador";
-    padding-left: 50px;
-    background-color: brown;
-    font-size: 25px;
+    
 }
 facultad{
     display: block;
-    background-color: cornflowerblue;
-    text-align: center;
+    font-family: 'Brush Script MT';    
 }
-
-nombreAsignatura{
-    display: block;
-    background-color: cornflowerblue;
-    text-align: center;
-}
-
 carrera{
     display: block;
-    background-color: cornflowerblue;
-    text-align: center;
+    font-family: 'Helvetica';
+    padding-bottom: 1cm;
+}
+nombreAsignatura{
+    font-family: 'Papyrus';
+    font-size: 24px;
 }
 grupoLab{
     display: block;
-    background-color: cornflowerblue;
-    text-align: center;
+    font-size: 25px;
+    font-family: sans-serif;
 }
 grupoLab::before{
     content: "Grupo de Laboratorio: ";
+    font-size: 25px;
+    font-family: sans-serif;
 }
-
 docente{
-    padding:15px;
+    font-size: 25px;
+    font-family: 'Times New Roman';
 }
-
-descripcion{
-    padding: 15px;
-}
-
-ponderacion{
-    padding: 15px;
-}
-
 docente::before{
     content: "Docente: ";
-    background-color: cornflowerblue;
-    width: 50%;
+    font-size: 25px;
+    font-family: 'Times New Roman';
 }
 descripcion{
     display: block;
-    background-color: cornflowerblue;
-    width: 50%;
+    font-size: 25px;
+    font-family: 'Times New Roman';
 }
-
-
-
-info{
-    display: block;
-    background-color: cornflowerblue;
-    width: 25%;
-}
-
 descripcion::before{
     content: "Actividad: ";
-    
+    font-size: 25px;
+    font-family: 'Times New Roman';
+}
+ponderacion{
+    font-size: 25px;
+    font-family: 'Times New Roman';    
 }
 ponderacion::before{
     content: "Ponderación: ";
-
+    font-size: 25px;
+    font-family: 'Times New Roman';    
 }
 listEquipos{
     display: block;
-    
+    font-size: 25px;
+    font-family: 'Copperplate';
 }
-
+listEquipos::before{
+    content: "Lista de equipos de trabajo: ";
+    padding-bottom: 0cm;
+}
 equipo{
     display: block;
-    border: solid;
+    border-color: white;
+    border-style: dashed;
     margin:2em;
 }
 equipo::before{
-    content: "Equipo #";
+    content: "Equipo #";    
 }
 tema{
     display: block;
+    border-color: white;
+    border-style: dashed;
+    font-family: 'Courier New';
 }
 tema::before{
     content: "Tema: ";
@@ -107,11 +116,13 @@ coordinador::before{
 }
 coordinador::after{
     content: "*(Coordinador)";
+    
 }
 coordinador{
     display: block;
+    font-family: 'Courier New';    
 }
 integrante{
     display: block;
+    font-family: 'Courier New';
 }
-
