@@ -1,39 +1,92 @@
 registro{
     font-size: large;
 }
+
+
+a{
+    background-color:rgb(16, 87, 219);
+    font-size: 25px;
+    color: cornsilk;
+    padding: 1em;
+    text-decoration:none;
+}
+
 registro::before{
     content: "Universidad de El Salvador";
+    padding-left: 50px;
+    background-color: brown;
+    font-size: 25px;
 }
 facultad{
     display: block;
+    background-color: cornflowerblue;
+    text-align: center;
 }
+
+nombreAsignatura{
+    display: block;
+    background-color: cornflowerblue;
+    text-align: center;
+}
+
 carrera{
     display: block;
+    background-color: cornflowerblue;
+    text-align: center;
 }
 grupoLab{
     display: block;
+    background-color: cornflowerblue;
+    text-align: center;
 }
 grupoLab::before{
     content: "Grupo de Laboratorio: ";
 }
+
+docente{
+    padding:15px;
+}
+
+descripcion{
+    padding: 15px;
+}
+
+ponderacion{
+    padding: 15px;
+}
+
 docente::before{
     content: "Docente: ";
+    background-color: cornflowerblue;
+    width: 50%;
 }
 descripcion{
     display: block;
+    background-color: cornflowerblue;
+    width: 50%;
 }
+
+
+
+info{
+    display: block;
+    background-color: cornflowerblue;
+    width: 25%;
+}
+
 descripcion::before{
     content: "Actividad: ";
+    
 }
 ponderacion::before{
     content: "Ponderación: ";
+
 }
 listEquipos{
     display: block;
+    
 }
-listEquipos::before{
-    content: "Lista de equipos de trabajo: ";
-}
+
 equipo{
     display: block;
     border: solid;

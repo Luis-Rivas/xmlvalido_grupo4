@@ -3,7 +3,7 @@
 
 <!DOCTYPE root SYSTEM "tareas.dtd">
 <root>
-<a xmlns="http://www.w3.org/1999/xhtml" href="../../index.html" target="marco">Volver al inicio</a>
+<a xmlns="http://www.w3.org/1999/xhtml" href="../../index.html" target="marco">INICIO</a>
 <registro institucion="Universidad de El Salvador">
 <facultad codigo="001">Facultad de Ingeniería y Arquitectura</facultad>
 <carrera codigo="I10515-1998">Ingeniería de Sistemas Informáticos</carrera>
@@ -11,12 +11,16 @@
 <nombreAsignatura>Tecnicas de Programación para Internet</nombreAsignatura>
 <GL>
 <grupoLab>01</grupoLab>
+<info>
 <docente>Ing. Balmore Ortíz</docente>
 <actividad>
 <descripcion>Tarea de investigación</descripcion>
 <ponderacion>50%</ponderacion>
 </actividad>
+</info>
 <listEquipos>
+
+
 <equipo>
 <numeroEquipo>01</numeroEquipo>
 <tema>xml válido</tema>
