@@ -3,7 +3,12 @@
 <!-- ejercicio-ii-1b-dtd.xml  grupo4-->
 
 <!DOCTYPE fichero [
-		<!ELEMENT fichero (ficha+)>
+		<!ELEMENT fichero (a, ficha+)>
+		<!ELEMENT a (#PCDATA) >
+<!ATTLIST a  
+  href CDATA #IMPLIED
+  xmlns CDATA #IMPLIED 
+  target (_blank|_self|marco) "_blank">
 		<!ELEMENT ficha (nombre, apellido, apellido, direccion*, DUI)>
     <!ATTLIST ficha id  ID  #REQUIRED>
     <!ATTLIST ficha nombre CDATA #IMPLIED>
@@ -15,6 +20,7 @@
 		<!ELEMENT DUI (#PCDATA) >
 		]>
 <fichero>
+<a xmlns="http://www.w3.org/1999/xhtml" href="../../index.html" target="marco">Volver al inicio</a>
  <ficha id="A1" nombre="prueba">
   <nombre sexo="femenino" edad="17">Angelina</nombre>
   <apellido>Fernandez</apellido>

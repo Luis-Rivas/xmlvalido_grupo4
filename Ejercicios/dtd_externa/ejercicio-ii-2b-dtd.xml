@@ -4,6 +4,7 @@
 
 <!DOCTYPE fichero SYSTEM "ejercicio-ii-2b-dtd.dtd">
 <fichero>
+<a xmlns="http://www.w3.org/1999/xhtml" href="../../index.html" target="marco">Volver al inicio</a>
  <ficha id="A1" nombre="prueba">
   <nombre sexo="femenino" edad="17">Angelina</nombre>
   <apellido>Fernandez</apellido>

@@ -1,5 +1,10 @@
 <!ELEMENT fichero (ficha+)>
-		<!ELEMENT ficha (nombre, apellido, apellido, direccion*, DUI)>
+		<!ELEMENT ficha (a, nombre, apellido, apellido, direccion*, DUI)>
+		<!ELEMENT a (#PCDATA) >
+<!ATTLIST a  
+  href CDATA #IMPLIED
+  xmlns CDATA #IMPLIED 
+  target (_blank|_self|marco) "_blank">
 		<!ELEMENT nombre (#PCDATA)>
 		<!ATTLIST nombre sexo (masculino|femenino) #REQUIRED>
             	<!ATTLIST nombre edad  CDATA  #IMPLIED>
