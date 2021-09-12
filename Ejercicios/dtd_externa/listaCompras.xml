@@ -6,6 +6,8 @@
 <a xmlns="http://www.w3.org/1999/xhtml" href="../../index.html" target="marco">Volver al inicio</a>
 <lista>
 <grid>
+
+<titulo>Lista del supermercado</titulo>
 <categoria nombre="Víveres">
 <producto>
 <nombre>Cárnicos</nombre>
