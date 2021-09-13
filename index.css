@@ -1,0 +1,43 @@
+body{
+    font-family: Arial;
+    background-color: rgb(121, 180, 183);
+    text-align: center;
+}
+header
+{
+
+    text-align: center;
+}
+.caja{
+    
+    background-color: rgb(226, 194, 185);
+   margin-left: 100px;
+   margin-right: 100px;
+    border-radius: 15px;
+    
+}
+
+.contenido
+{
+    
+    background-color: rgb(209, 171, 200);
+    display: block;
+    border-radius: 10px;
+    padding: 1px;
+}
+table th,td
+      {
+        border: 1px solid rgb(248, 240, 223);
+       
+      }
+      table
+      {
+        table-layout: fixed; 
+        width: 390px;
+        border-collapse: collapse;
+        align-self: center;
+        align-content: center;
+        text-align: center;
+        margin: 0 auto;
+        
+      }
